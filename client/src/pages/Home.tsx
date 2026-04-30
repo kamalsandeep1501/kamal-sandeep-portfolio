@@ -336,7 +336,7 @@ export default function Home() {
                   <Mail className="mr-2" size={20} /> Email Me
                 </Button>
               </a>
-              <a href="https://www.linkedin.com/in/kamal-sandeep-a/" target="_blank" rel="noopener noreferrer" className="inline-flex">
+              <a href="https://www.linkedin.com/in/kamal-sandeep-a-572461295/" target="_blank" rel="noopener noreferrer" className="inline-flex">
                 <Button variant="outline" className="border-slate-600 text-white hover:bg-slate-800 px-8 py-6 text-base">
                   <Linkedin className="mr-2" size={20} /> LinkedIn
                 </Button>
