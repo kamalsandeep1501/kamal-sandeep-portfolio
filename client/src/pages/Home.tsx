@@ -81,8 +81,9 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-            •
+          <div className="flex flex-col">
+            <div className="text-xl font-bold text-white">Kamal Sandeep A</div>
+            <div className="text-xs text-blue-400 font-medium">AI Engineer</div>
           </div>
           <div className="hidden md:flex gap-8 text-sm">
             <a href="#projects" className="text-slate-300 hover:text-white transition">
@@ -128,32 +129,28 @@ export default function Home() {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
-            <div className="inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full">
-              <span className="text-sm text-blue-300">AI Engineer • Building Intelligent Systems</span>
-            </div>
-
-
-
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-white">
+              AI Engineer & ML Developer
+            </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
-              I'm an enthusiastic AI Engineer specializing in Generative AI, Computer Vision, and Data-Driven Solutions. 
-              I build production-ready AI applications that solve real-world problems using cutting-edge technologies.
+              Specialized in Generative AI, Computer Vision, and Data-Driven Solutions. I build production-ready AI applications using cutting-edge technologies like LangChain, YOLOv8, and modern LLM APIs.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#projects" className="inline-flex">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-base">
-                  Explore My Work <ArrowRight className="ml-2" size={20} />
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-base font-semibold">
+                  View My Projects <ArrowRight className="ml-2" size={20} />
                 </Button>
               </a>
               <a href="#contact" className="inline-flex">
-                <Button variant="outline" className="border-slate-600 text-white hover:bg-slate-800 px-8 py-6 text-base">
-                  Get in Touch
+                <Button variant="outline" className="border-blue-500 text-blue-300 hover:bg-blue-500/10 px-8 py-6 text-base font-semibold">
+                  Contact Me
                 </Button>
               </a>
             </div>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-slate-800">
+            <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-slate-800">
               <div>
                 <div className="text-3xl font-bold text-blue-400">3+</div>
                 <p className="text-slate-400 text-sm mt-2">AI Projects</p>
