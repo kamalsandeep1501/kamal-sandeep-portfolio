@@ -341,7 +341,7 @@ export default function Home() {
                   <Linkedin className="mr-2" size={20} /> LinkedIn
                 </Button>
               </a>
-              <a href="https://github.com/kamalsandeep15072004" target="_blank" rel="noopener noreferrer" className="inline-flex">
+              <a href="https://github.com/kamalsandeep1501" target="_blank" rel="noopener noreferrer" className="inline-flex">
                 <Button variant="outline" className="border-slate-600 text-white hover:bg-slate-800 px-8 py-6 text-base">
                   <Github className="mr-2" size={20} /> GitHub
                 </Button>
