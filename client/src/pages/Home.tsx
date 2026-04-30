@@ -82,7 +82,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-            KS
+            •
           </div>
           <div className="hidden md:flex gap-8 text-sm">
             <a href="#projects" className="text-slate-300 hover:text-white transition">
@@ -132,13 +132,7 @@ export default function Home() {
               <span className="text-sm text-blue-300">AI Engineer • Building Intelligent Systems</span>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              <span className="text-white">Transform Ideas into</span>
-              <br />
-              <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                Intelligent Solutions
-              </span>
-            </h1>
+
 
             <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
               I'm an enthusiastic AI Engineer specializing in Generative AI, Computer Vision, and Data-Driven Solutions. 
